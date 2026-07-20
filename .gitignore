@@ -1,0 +1,10 @@
+# Internal planning docs
+implementation_plan.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
