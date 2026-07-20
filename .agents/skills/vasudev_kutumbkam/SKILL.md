@@ -29,6 +29,7 @@ d:\Vasudev Kutumbkam\
 
 **GitHub Repo:** https://github.com/alokjaiss/vasudev_kutumbkam  
 **Live URL:** https://alokjaiss.github.io/vasudev_kutumbkam/  
+**Kanban Board:** https://github.com/users/alokjaiss/projects/3  
 **Branch:** `main` — GitHub Pages serves directly from root of `main`
 
 ## Development & Contribution Workflow (Issue → PR → Kanban)
@@ -37,7 +38,8 @@ To maintain structured collaboration and track feature progress on GitHub, follo
 
 ### 1. Issue Tracking & Kanban
 - Check existing GitHub Issues or create a new issue for any bug, feature, or content addition.
-- Link issues to the GitHub Project Board / Kanban board (`To Do` → `In Progress` → `Done`).
+- Link issues to the [Vasudev Kutumbkam — One Earth Roadmap Project Board](https://github.com/users/alokjaiss/projects/3).
+- Move cards across columns (`Todo` → `In Progress` → `Done`) as work progresses.
 
 ### 2. Branching & Pull Requests (PR)
 - Create a dedicated feature branch for the issue:
