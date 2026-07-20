@@ -31,22 +31,30 @@ d:\Vasudev Kutumbkam\
 **Live URL:** https://alokjaiss.github.io/vasudev_kutumbkam/  
 **Branch:** `main` — GitHub Pages serves directly from root of `main`
 
-## Deployment Workflow
+## Development & Contribution Workflow (Issue → PR → Kanban)
 
-After ANY content change, always run these commands:
+To maintain structured collaboration and track feature progress on GitHub, follow this workflow for all changes:
 
-```powershell
-# Stage changes
-git add -A
+### 1. Issue Tracking & Kanban
+- Check existing GitHub Issues or create a new issue for any bug, feature, or content addition.
+- Link issues to the GitHub Project Board / Kanban board (`To Do` → `In Progress` → `Done`).
 
-# Commit with descriptive message (use emoji prefix)
-git commit -m "✨ <short description of what was added/changed>"
+### 2. Branching & Pull Requests (PR)
+- Create a dedicated feature branch for the issue:
+  ```powershell
+  git checkout -b feature/issue-#-short-description
+  ```
+- Implement changes and commit with meaningful messages (e.g., `feat: Add social sharing buttons (#4)`).
+- Push the feature branch and create a Pull Request against `main`:
+  ```powershell
+  git push origin feature/issue-#-short-description
+  ```
 
-# Push — GitHub Pages auto-rebuilds in ~1 minute
-git push origin main
-```
+### 3. Review & Merge to Main
+- Merge PR into `main` (closing the associated issue with `Closes #<issue-number>`).
+- GitHub Pages auto-rebuilds and deploys the updated site from `main` in ~1 minute.
 
-The GitHub token is stored in the remote URL. Do not expose it in commit messages.
+The GitHub token is stored in the remote URL. Do not expose tokens or secrets in commit messages or code.
 
 ## Website Architecture
 
